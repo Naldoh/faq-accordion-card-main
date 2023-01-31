@@ -45,7 +45,7 @@ body {
   align-items: center;
   background:linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
   font-family: 'Kumbh Sans', sans-serif;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .container {
@@ -74,7 +74,14 @@ h1 {
 }
 
 .question {
-  border-bottom: 0.1rem solid red;
+  display: flex;
+  justify-content:space-between;
+  padding-bottom: 1rem;
+  border-bottom: 0.1rem solid hsl(240, 5%, 91%);
+}
+
+.question:active {
+  font-weight: bold;
 }
 
 .question > p {
