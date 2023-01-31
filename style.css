@@ -61,6 +61,23 @@ body {
   border-radius: 2rem;
 }
 
+.images {
+  position: relative;
+}
+
+.images-container {
+  background: url(images/illustration-woman-online-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: 120% center;
+  height: 100%;
+}
+
+.image-box {
+  position: absolute;
+  top: 40%;
+  left: -30%;
+}
+
 h1 {
   font-weight: 700;
   font-size: 2rem;
@@ -80,8 +97,13 @@ h1 {
   border-bottom: 0.1rem solid hsl(240, 5%, 91%);
 }
 
-.question:active {
-  font-weight: bold;
+.question:hover {
+  color: hsl(14, 88%, 65%);
+  cursor: pointer;
+}
+
+.question img {
+  align-self: center;
 }
 
 .question > p {
